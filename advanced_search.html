@@ -1,41 +1,39 @@
 <!DOCTYPE html>
-<html lan= "en">
+<html lang="en">
+<head>
+    <title>Advanced Search</title>
+    <link rel="stylesheet" href="advanced_search.css">
+</head>
+<body>
+    <div class="top-right-container">
+        <a id="index_link" href="index.html">Google search</a>
+    </div>
 
-    <head>
-        <title>Advanced Seacrch</title>
-        <link rel="stylesheet" href="advanced_search.css">
-    </head>
+    <img id="searching_png" src="searching_advanced.png" alt="Searching.png">
 
-    <body>
-        <div class="top-right-container">
-            <a id="index_link" href="index.html">Google search</a>
-        </div>
+    <hr>
 
-        <img id="searching_png" src="searching_advanced.png" alt="Searching.png">
+    <table class="search-table">
 
-        <hr>
+        <tr>
+            <th>all these words:</th>
+            <td><input type="text"></td>
+        </tr>
 
-        <div class="content">
-            <div class="filling_places">
-                <h3 style= "font-family: 'arial'; font-weight: lighter;">all these words:</h3>
-                <input class="rectangles" type="text">
-            </div>
+        <tr>
+            <th>this exact word or phrase:</th>
+            <td><input type="text"></td>
+        </tr>
 
-            <div class="filling_places">
-                <h3 style= "font-family: 'arial'; font-weight: lighter;">this exact word or phrase:</h3>
-                <input class="rectangles" type="text">
-            </div>
+        <tr>
+            <th>any of these words:</th>
+            <td><input type="text"></td>
+        </tr>
 
-            <div class="filling_places">
-                <h3 style= "font-family: 'arial'; font-weight: lighter;">any of these words:</h3>
-                <input class="rectangles" type="text">
-            </div>
-
-            <div class="filling_places">
-                <h3 style= "font-family: 'arial'; font-weight: lighter;">none of these words:</h3>
-                <input class="rectangles" type="text">
-            </div>
-        </div>
-
-    </body>
+        <tr>
+            <th>none of these words:</th>
+            <td><input type="text"></td>
+        </tr>
+    </table>
+</body>
 </html>
