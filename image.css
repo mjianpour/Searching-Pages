@@ -14,6 +14,7 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 10px;
+    position: absolute;
 }
 
 input {
@@ -42,4 +43,16 @@ input {
 
 #submit:hover {
     background-color: rgb(199, 199, 199);
+}
+
+#submit {
+    width: 150px;
+}
+
+#search_bar {
+    width: 500px;
+    height: 25px;
+    border-radius: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
 }

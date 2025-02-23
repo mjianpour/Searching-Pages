@@ -1,36 +1,74 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
 body {
-    margin: 0; /* Remove default body margin */
-    height: 100vh; /* Make the body take up the full viewport height */
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    background-color: #f8f9fa; /* Optional: Add a background color */
+    align-items: center;
+    justify-content: center;
+}
+
+.centered-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
 }
 
 .top-right-container {
     position: fixed;
     top: 0;
-    right: 0;
+    right: 5px;
     padding: 15px;
     display: flex;
     flex-direction: row;
     gap: 15px;
 }
 
-#google_png {
-    width: 300px;
-    object-fit: cover;
+#searching_png {
+    transform: scale(0.25);
+    margin-bottom: -235px;
+    transform-origin: top center;
 }
 
-.centered_elements {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+.buttons:hover {
+    background-color: rgb(199, 199, 199);
 }
+
+#written_phrase {
+    width: 382px;
+}
+
+.gapping {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    gap: 15px; 
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row; 
+    gap: 15px; 
+}
+
+.buttons {
+    width: 150px; }
 
 #search_bar {
     width: 500px;
-    height: 40px;
-    border-radius: 25px;
+    height: 25px;
+    border-radius: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
