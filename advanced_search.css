@@ -66,3 +66,13 @@ hr {
     border-radius: 2px;
 }
 
+button {
+    border: none;
+    background-color: #0078d4;
+    padding: 3px;
+    font: "arial";
+    color: white;
+    border-radius: 2px;
+    height: 27px;
+    width: 120px;
+}

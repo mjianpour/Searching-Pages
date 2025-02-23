@@ -12,28 +12,31 @@
     <img id="searching_png" src="searching_advanced.png" alt="Searching.png">
 
     <hr>
+    <form action="https://www.google.com/search" method="GET">
+        <table class="search-table">
 
-    <table class="search-table">
+            <tr>
+                <th>all these words:</th>
+                <td><input type="text" name="q" placeholder="ex: apple banana"></td>
+            </tr>
 
-        <tr>
-            <th>all these words:</th>
-            <td><input type="text"></td>
-        </tr>
+            <tr>
+                <th>this exact word or phrase:</th>
+                <td><input type="text" name="q" placeholder='ex: "apple pie"'></td>
+            </tr>
 
-        <tr>
-            <th>this exact word or phrase:</th>
-            <td><input type="text"></td>
-        </tr>
+            <tr>
+                <th>any of these words:</th>
+                <td><input type="text" name="q" placeholder="ex: (apple OR orange)"></td>
+            </tr>
 
-        <tr>
-            <th>any of these words:</th>
-            <td><input type="text"></td>
-        </tr>
+            <tr>
+                <th>none of these words:</th>
+                <td><input type="text" name="q" placeholder="ex: -kiwi"></td>
+            </tr>
 
-        <tr>
-            <th>none of these words:</th>
-            <td><input type="text"></td>
-        </tr>
-    </table>
+            <button type= "submit">Advanced Search</button>
+        </table>
+    </form>
 </body>
 </html>
