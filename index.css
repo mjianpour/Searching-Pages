@@ -14,6 +14,7 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 10px;
+    position: absolute;
 }
 
 input {
@@ -40,11 +41,7 @@ input {
     transform-origin: top center;
 }
 
-#submit:hover {
-    background-color: rgb(199, 199, 199);
-}
-
-#lucky:hover {
+.buttons:hover {
     background-color: rgb(199, 199, 199);
 }
 
@@ -52,6 +49,26 @@ input {
     width: 382px;
 }
 
-#submit {
-    width: 200px;
+.gapping {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    gap: 15px; 
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row; 
+    gap: 15px; 
+}
+
+.buttons {
+    width: 150px; }
+
+#search_bar {
+    width: 500px;
+    height: 25px;
+    border-radius: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
