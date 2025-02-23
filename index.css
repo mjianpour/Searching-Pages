@@ -43,3 +43,15 @@ input {
 #submit:hover {
     background-color: rgb(199, 199, 199);
 }
+
+#lucky:hover {
+    background-color: rgb(199, 199, 199);
+}
+
+#written_phrase {
+    width: 382px;
+}
+
+#submit {
+    width: 200px;
+}

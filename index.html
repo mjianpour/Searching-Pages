@@ -6,15 +6,29 @@
     </head>
 
     <body>
-        <form class="centered-form" action="https://www.google.com/search">
+        <div class="centered-form">
+            <img id="searching_png" src="searching.png" alt="Searching.png">
             
-            <img id= "searching_png" src="searching.png" alt="Searching.png">
-            <input  type= "text" id= "written_phrase" name= "q">
-            <input  type= "submit" id= "submit" value= "Google Search">
-            
+            <!-- Form for Google Search -->
+            <form action="https://www.google.com/search" method="GET">
+                <input type="text" id="written_phrase" name="q">
+                <div class="button-container">
+                    <input class="buttons" type="submit" id="submit" value="Google Search">
+                </div>
+            </form>
+    
+            <!-- Form for I'm Feeling Lucky -->
+            <form action="https://www.google.com/search" method="GET">
+                <input type="hidden" name="q" value="">
+                <input type="hidden" name="btnI" value="I">
+                <div class="button-container">
+                    <input class="buttons" id="lucky" type="submit" value="I'm Feeling Lucky">
+                </div>
+            </form>
+
             <div class="top-right-container">
                 <a id="image_link" href="search image.html">Search image</a>
-                <a id="advance_link" href="advanced search.html">Advanced search</a>
+                <a id="advance_link" href="advanced_search.html">Advanced search</a>
             </div>
 
         </form>
